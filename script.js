@@ -9,7 +9,7 @@ password.addEventListener('input', () => {
         message.style.visibility = "visible";
     }else{
         message.style.visibility = "hidden";
-        password.style.borderColor = "white"
+        password.style.borderColor = "white";
     }
 
     if(password.value.length < 5){
