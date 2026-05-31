@@ -10,6 +10,7 @@ password.addEventListener('input', () => {
     }else{
         message.style.visibility = "hidden";
         password.style.borderColor = "white";
+        return;
     }
 
     if(password.value.length < 5){
