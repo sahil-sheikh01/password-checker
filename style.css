@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-box{
+    width: 400px;
+    max-width: 80%;
+    position: relative;
+}
+.input-box input{
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #ccc;
+}
+.input-box i{
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+}
+#message{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px;
+    visibility: hidden;
+}
